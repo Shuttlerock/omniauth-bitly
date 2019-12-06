@@ -3,8 +3,7 @@ PATH
   specs:
     omniauth-bitly (0.0.9)
       multi_json
-      omniauth
-      omniauth-oauth2
+      omniauth-oauth2 (~> 1.6)
 
 GEM
   remote: http://rubygems.org/
