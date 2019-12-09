@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     omniauth-bitly (0.0.9)
-      multi_json
+      multi_json (~> 1.14.1)
       omniauth-oauth2 (~> 1.6)
 
 GEM

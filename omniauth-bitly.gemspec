@@ -18,9 +18,8 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency 'multi_json'
-  s.add_dependency 'omniauth'
-  s.add_dependency 'omniauth-oauth2'
+  s.add_dependency 'multi_json', '~> 1.14.1'
+  s.add_runtime_dependency 'omniauth-oauth2', '~> 1.6'
   s.add_development_dependency 'rspec', '~> 2.7'
   s.add_development_dependency 'rack-test'
   s.add_development_dependency 'simplecov'
